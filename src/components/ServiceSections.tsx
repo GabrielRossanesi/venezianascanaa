@@ -95,9 +95,17 @@ export function Differentials() {
       <div className="shell differentials__grid">
         <div className="differentials__heading">
           <SectionIntro id="differentials-title" eyebrow="Nosso jeito de atender" title="A solução certa começa com atenção aos detalhes." />
-          <div className="differentials__window" aria-hidden="true">
-            <span /><span /><span /><span /><span /><span />
-          </div>
+          <figure className="differentials__visual">
+            <img
+              src="/images/ajuste-mecanismo-veneziana.webp"
+              alt="Mãos ajustando cuidadosamente o mecanismo de uma veneziana residencial"
+              width="1536"
+              height="1024"
+              loading="lazy"
+              decoding="async"
+            />
+            <figcaption>Imagem ilustrativa</figcaption>
+          </figure>
         </div>
         <div className="differentials__list">
           {differentials.map((item, index) => (

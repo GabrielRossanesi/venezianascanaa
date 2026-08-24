@@ -724,24 +724,44 @@ ol {
   padding: clamp(90px, 9vw, 136px) clamp(48px, 6vw, 92px) clamp(90px, 9vw, 136px) 0;
 }
 
-.differentials__window {
+.differentials__visual {
   position: absolute;
   right: clamp(48px, 6vw, 92px);
-  bottom: 76px;
+  bottom: 58px;
   left: 0;
-  display: flex;
-  height: 132px;
-  flex-direction: column;
-  justify-content: space-between;
+  height: 230px;
+  margin: 0;
   overflow: hidden;
+  background: #d8ddd8;
 }
 
-.differentials__window span {
+.differentials__visual::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 56%, rgb(3 48 45 / 38%));
+  content: '';
+  pointer-events: none;
+}
+
+.differentials__visual img {
   display: block;
-  height: 6px;
-  background: var(--ink);
-  transform: perspective(100px) rotateX(21deg);
-  transform-origin: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 58% 43%;
+  filter: saturate(0.82) contrast(1.02);
+}
+
+.differentials__visual figcaption {
+  position: absolute;
+  z-index: 1;
+  right: 16px;
+  bottom: 13px;
+  color: rgb(255 255 255 / 84%);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
 }
 
 .differentials__list {
@@ -1376,7 +1396,7 @@ ol {
     padding-left: max(18px, calc((100vw - 860px) / 2));
   }
 
-  .differentials__window {
+  .differentials__visual {
     right: max(18px, calc((100vw - 860px) / 2));
     left: max(18px, calc((100vw - 860px) / 2));
   }
@@ -1618,15 +1638,19 @@ ol {
   }
 
   .differentials__heading {
-    min-height: 510px;
+    min-height: 570px;
     padding: 82px 16px;
   }
 
-  .differentials__window {
+  .differentials__visual {
     right: 16px;
-    bottom: 68px;
+    bottom: 54px;
     left: 16px;
-    height: 105px;
+    height: 190px;
+  }
+
+  .differentials__visual img {
+    object-position: 61% 45%;
   }
 
   .differentials__list {
