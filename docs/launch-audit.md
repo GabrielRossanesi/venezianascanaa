@@ -4,11 +4,11 @@
 
 ## Imagens — RESOLVIDO
 
-- O hero existente foi mantido por já cumprir sua função de apresentar o serviço e sustentar a identidade visual. A página usa `public/images/hero-venezianas.webp`, com o PNG-fonte preservado em `assets/source/hero-venezianas.png`.
-- O grafismo abstrato da seção “Nosso jeito de atender” foi substituído por uma imagem institucional com função explicativa: um close-up de mãos ajustando o mecanismo de uma veneziana residencial.
+- Após validação do cliente, as duas imagens que mostravam persianas internas foram substituídas por fotografias ilustrativas de venezianas de enrolar residenciais, com lâminas rígidas intertravadas, guias laterais e caixa superior.
+- O novo hero preserva a direção visual aprovada e mostra uma veneziana de enrolar integrada à janela. A página usa `public/images/hero-veneziana.webp` (1536 × 1024; 105.444 bytes), com o PNG-fonte preservado em `assets/source/hero-veneziana.png` (1536 × 1024; 2.008.710 bytes).
+- A seção “Nosso jeito de atender” mostra manutenção no suporte do eixo dentro da caixa superior de uma veneziana de enrolar. A página usa `public/images/manutencao-veneziana.webp` (1536 × 1024; 92.534 bytes), com o PNG-fonte preservado em `assets/source/manutencao-veneziana.png` (1536 × 1024; 2.256.708 bytes).
 - A nova imagem é identificada na própria interface como “Imagem ilustrativa” e não contém marca, uniforme, rosto, fachada, veículo, endereço ou qualquer elemento que a apresente como registro de um atendimento real.
-- O PNG-fonte foi preservado em `assets/source/ajuste-mecanismo-veneziana.png` (1536 × 1024; 1.872.760 bytes).
-- A versão publicada está em `public/images/ajuste-mecanismo-veneziana.webp` (1536 × 1024; 46.708 bytes), com dimensões explícitas, `loading="lazy"`, `decoding="async"` e recorte responsivo por CSS.
+- O hero possui preload, `fetchpriority="high"` e dimensões explícitas; ele não usa lazy loading. A imagem de manutenção usa dimensões explícitas, `loading="lazy"`, `decoding="async"` e recorte responsivo por CSS.
 - Não foram adicionadas imagens meramente decorativas a serviços, problemas, processo, avaliações, FAQ, CTA ou rodapé. Essas seções já possuem hierarquia suficiente com tipografia, ícones e composição.
 
 ## Imagens — PENDENTE
@@ -29,5 +29,6 @@
 ## Critérios de honestidade visual
 
 - Imagem institucional gerada é sempre apresentada como ilustrativa.
+- Imagens públicas devem representar venezianas utilizadas em janelas; persianas internas, cortinas e rolôs não devem ser usados para apresentar os serviços da empresa.
 - Portfólio, equipe, instalações, veículo e resultados só podem usar registros reais e autorizados.
 - Nenhuma imagem pode sugerir endereço, estrutura física, identidade de técnico ou trabalho executado quando essas informações não tiverem sido fornecidas pela Venezianas Canaã.

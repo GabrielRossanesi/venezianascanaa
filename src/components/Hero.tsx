@@ -6,8 +6,12 @@ export function Hero() {
     <section className="hero" id="inicio" aria-labelledby="hero-title">
       <img
         className="hero__image"
-        src="/images/hero-venezianas.webp"
-        alt="Sala residencial com grandes venezianas horizontais filtrando a luz natural"
+        src="/images/hero-veneziana.webp"
+        alt="Sala residencial com veneziana de enrolar integrada à janela e parcialmente fechada"
+        width="1536"
+        height="1024"
+        fetchPriority="high"
+        decoding="async"
       />
       <div className="hero__overlay" aria-hidden="true" />
       <div className="hero__light-lines" aria-hidden="true" />

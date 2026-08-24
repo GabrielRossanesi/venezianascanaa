@@ -97,8 +97,8 @@ export function Differentials() {
           <SectionIntro id="differentials-title" eyebrow="Nosso jeito de atender" title="A solução certa começa com atenção aos detalhes." />
           <figure className="differentials__visual">
             <img
-              src="/images/ajuste-mecanismo-veneziana.webp"
-              alt="Mãos ajustando cuidadosamente o mecanismo de uma veneziana residencial"
+              src="/images/manutencao-veneziana.webp"
+              alt="Mãos realizando manutenção no mecanismo superior de uma veneziana de enrolar"
               width="1536"
               height="1024"
               loading="lazy"

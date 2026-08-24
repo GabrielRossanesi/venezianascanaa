@@ -2,13 +2,13 @@ import sharp from 'sharp'
 
 const images = [
   {
-    source: 'assets/source/hero-venezianas.png',
-    output: 'public/images/hero-venezianas.webp',
+    source: 'assets/source/hero-veneziana.png',
+    output: 'public/images/hero-veneziana.webp',
     quality: 82,
   },
   {
-    source: 'assets/source/ajuste-mecanismo-veneziana.png',
-    output: 'public/images/ajuste-mecanismo-veneziana.webp',
+    source: 'assets/source/manutencao-veneziana.png',
+    output: 'public/images/manutencao-veneziana.webp',
     quality: 78,
   },
 ]
