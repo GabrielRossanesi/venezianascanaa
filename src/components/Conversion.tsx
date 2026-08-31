@@ -1,4 +1,4 @@
-import { ArrowUpRight, Mail, MapPin, MessageCircle, Phone } from 'lucide-react'
+import { ArrowUpRight, Instagram, Mail, MapPin, MessageCircle, Phone } from 'lucide-react'
 import { company, navigation, whatsappUrl } from '../data/company'
 import { Brand } from './Brand'
 
@@ -47,6 +47,7 @@ export function Footer() {
           <a href={`tel:${company.phoneNumber}`}><Phone size={17} aria-hidden="true" /> {company.phoneDisplay}</a>
           <a href={whatsappUrl('rodapé')} target="_blank" rel="noreferrer"><MessageCircle size={17} aria-hidden="true" /> WhatsApp: {company.phoneDisplay}</a>
           <a href={`mailto:${company.email}`}><Mail size={17} aria-hidden="true" /> {company.email}</a>
+          <a href={company.instagramUrl} target="_blank" rel="noopener noreferrer" aria-label={`Instagram da ${company.name} (${company.instagramDisplay})`}><Instagram size={17} aria-hidden="true" /> {company.instagramDisplay}</a>
           <span><MapPin size={17} aria-hidden="true" /> {company.location}</span>
         </div>
       </div>

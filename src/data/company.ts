@@ -4,6 +4,8 @@ export const company = {
   phoneNumber: '+5541996999794',
   whatsappNumber: '5541996999794',
   email: 'persianascanaa@gmail.com',
+  instagramDisplay: '@persianascanaa_',
+  instagramUrl: 'https://www.instagram.com/persianascanaa_?igsi=bGRjbDYwbzBpajdu',
   location: 'Curitiba (PR)',
   developerName: 'Morales Soluções',
   developerUrl: 'https://moralesolucoes.com.br', // TODO: confirmar URL
